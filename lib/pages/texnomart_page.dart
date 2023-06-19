@@ -8,7 +8,6 @@ import 'bloc/states/texnomart_state.dart';
 import 'bloc/texnomart_bloc.dart';
 
 class TexnomartPage extends StatefulWidget {
-  const TexnomartPage({Key? key}) : super(key: key);
 
   @override
   State<TexnomartPage> createState() => _TexnomartPageState();
@@ -325,7 +324,7 @@ class _TexnomartPageState extends State<TexnomartPage> {
                                                               color:
                                                               const Color(0xfffbc200),
                                                             ),
-                                                            child: const Row(
+                                                            child:  Row(
                                                               crossAxisAlignment:
                                                               CrossAxisAlignment
                                                                   .start,
