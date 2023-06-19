@@ -3,22 +3,24 @@ import 'package:get/get.dart';
 
 import 'home_page.dart';
 
-void main() {
-  runApp( MyApp());
+void main()async {
+  await setup();
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: 'Flutter Demo',
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+      home: ChangeNotifierProvider(
+        create: (context) => HomeProvider(),
+        child: const BottomNavigationScreen(),
       ),
-      home:  const HomePage(),
+      title: 'Flutter Demo',
     );
   }
 }

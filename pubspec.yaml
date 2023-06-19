@@ -30,11 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get: ^4.6.5
-  http: ^0.13.5
-  path_provider: ^2.0.15
-  android_path_provider: ^0.3.0
-  connectivity_plus: ^4.0.1
+  pull_to_refresh: ^2.0.0
+  dio: ^4.0.6
+  zoom_tap_animation: ^1.1.0
+  easy_localization: ^3.0.1
+  flutter_bloc: ^8.1.2
+  get_it: ^7.2.0
+  hive: ^2.2.3
+  path_provider: ^2.0.13
 
 
   # The following adds the Cupertino Icons font to your application.
