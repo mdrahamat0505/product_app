@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:github_repositories/pages/bottom_page.dart';
 
-import 'home_page.dart';
+
+import 'package:provider/provider.dart';
+
+
+import 'di.dart';
+import 'pages/karzinka_page.dart';
 
 void main()async {
   await setup();
