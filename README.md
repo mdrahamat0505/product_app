@@ -1,10 +1,13 @@
 # product_app
 
 Technology:
+
  Http: 
  This package contains a set of high-level functions and classes that make it easy to consume HTTP resources. It's multi-platform, and supports mobile, desktop, and the browser.
+ 
  Get It: 
 Simple direct Service Locator that allows to decouple the interface from a concrete implementation and to access the concrete implementation from everywhere in your App"
+
 Intl: 
 Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.
  Path provider: 
